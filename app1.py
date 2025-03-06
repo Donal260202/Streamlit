@@ -5,7 +5,7 @@ st.set_page_config(page_title="PMFBY ANALYSIS",layout="wide")
 df=pd.read_excel("PMFBY.xlsx")
 #st.dataframe(df)
 
-st.title("Analysis of PMFBY Data 2018-2023")
+st.title("Analysis of PMFBY Data 2018-2023 District Wise")
 
 
 st.sidebar.header("Please Select the Year:")
