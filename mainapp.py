@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.set_page_config(page_title="PMFBY ANALYSIS",layout="wide")
-df=pd.read_excel("C:\\Users\\dell\\Desktop\\PMFBY.xlsx")
+df=pd.read_excel("PMFBY.xlsx")
 
 def Year_Wise_Analysis():
     st.title("Year Wise Analysis of PMFBY Data 2018-2023")
