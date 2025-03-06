@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 st.set_page_config(page_title="PMFBY ANALYSIS",layout="wide")
-df=pd.read_excel("C:\\Users\\dell\\Desktop\\PMFBY.xlsx")
+df=pd.read_excel("PMFBY.xlsx")
 #st.dataframe(df)
 st.sidebar.header("Please Select the District:")
 district=st.sidebar.multiselect("Select the district:",options=df["District Name"].unique(),default=df["District Name"].unique())
